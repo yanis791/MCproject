@@ -140,12 +140,7 @@ void delay(unsigned int k)
 //************************************************************************************************
 void Delay5us()
 {
-	_nop_();_nop_();_nop_();_nop_();
-	_nop_();_nop_();_nop_();_nop_();
-	_nop_();_nop_();_nop_();_nop_();
-	_nop_();_nop_();_nop_();_nop_();
-	_nop_();_nop_();_nop_();_nop_();
-	_nop_();_nop_();_nop_();_nop_();
+	_nop_();_nop_();_nop_();_nop_();_nop_();
 }
 //*************************************************************************************************
 //I2C起始信号
@@ -271,21 +266,20 @@ void InitMPU6050()
 //******************************************************************************************************
 //合成数据
 //******************************************************************************************************
-void GetData(uchar REG_Address)
+int GetData(uchar REG_Address)
 {
 	uchar H,L,i;
 	int value;
 	H=Single_ReadI2C(REG_Address);
 	L=Single_ReadI2C(REG_Address+1);
 	value = ((H<<8)+L);   //合成数据
-    //uchar i;
-	value/=64;							//转换为10位数据
+	//value/=64;							//转换为10位数据
 	lcd_printf(dis, value);			//转换数据显示
 	for(i=0;i<6;i++)
 	{
     sendData(dis[i]);
     }
-
+	return value;
 }
 //******************************************************************************************************
 //超级终端（串口调试助手）上显示10位数据
@@ -311,10 +305,9 @@ void mpu(void)
 	InitMPU6050();	//初始化MPU6050
 	delay(150);
 	while(1)
-	{
-		sendData('A');  
+	{  
 		//SeriPushSend(0x20);SeriPushSend('X'); SeriPushSend(':'); 
-		GetData(ACCEL_XOUT_H);	//显示X轴加速度
+		//GetData(ACCEL_XOUT_H);	//显示X轴加速度
 		// SeriPushSend(0x20);SeriPushSend('Y'); SeriPushSend(':');
 		// Display10BitData(GetData(ACCEL_YOUT_H));	//显示Y轴加速度
 		// SeriPushSend(0x20);SeriPushSend('Z'); SeriPushSend(':');
@@ -326,9 +319,9 @@ void mpu(void)
 		// SeriPushSend(0x20);SeriPushSend('Y'); SeriPushSend(':');
 		// Display10BitData(GetData(GYRO_YOUT_H));		//显示Y轴角速度
 		// SeriPushSend(0x20);SeriPushSend('Z'); SeriPushSend(':');
-		// Display10BitData(GetData(GYRO_ZOUT_H));		//显示Z轴角速度	     
+		GetData(GYRO_ZOUT_H);		//显示Z轴角速度	     
 		//SeriPushSend(0x0d); 
         //SeriPushSend(0x0a);//换行，回车
-		delay(2000);
+		delay(20);
 	}
 }

@@ -17,31 +17,18 @@ void delay1ms(unsigned int t){
 	}
 }
 
-void motorRun(void)
+void motorRun(int direction, int round, int speed)
 {
-	unsigned char i;
-
-	while(1){
-		// if (key1==0){
-			for(i=0;i<8;i++){
-				P2 = clockwise[i];
+	int i;
+	if(direction == 0)
+		for(i=0;i<round;i++){
+			P2 = antiClockwise[i%8];
+			delay1ms(speed);	
+		}
+	else
+		for(i=0;i<round;i++){
+				P2 = clockwise[i%8];
 				delay1ms(speed);	
-		 	}
-		// }
-		// if (key2==0){
-		// 	for(i=0;i<8;i++){
-		// 		P2 = zheng [i];
-		// 		delay1ms(speed);
-		// 	}
-		// }
-		// if (key3==0){
-		// 	speed = speed + 5;
-		// 	if (speed>100)	speed = 100;
-		// }
-		// if (key4==0){
-		// 	speed = speed - 5;
-		// 	if (speed<40)	speed = 40;
-		// }
+			}
 	
-}
 }
