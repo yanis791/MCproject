@@ -275,10 +275,10 @@ int GetData(uchar REG_Address)
 	value = ((H<<8)+L);   //合成数据
 	//value/=64;							//转换为10位数据
 	lcd_printf(dis, value);			//转换数据显示
-	for(i=0;i<6;i++)
-	{
-    sendData(dis[i]);
-    }
+	// for(i=0;i<6;i++)
+	// {
+    // sendData(dis[i]);
+    // }
 	return value;
 }
 //******************************************************************************************************

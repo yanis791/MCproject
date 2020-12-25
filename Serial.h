@@ -45,4 +45,33 @@ void sendData(unsigned char data2send)
     TI = 0;
     ES=1;
 }
+void sendString(int temp_data)
+{
+	unsigned char str[6],i;
+	unsigned char *s;
+	s=str;
+	if(temp_data<0)
+	{
+		temp_data=-temp_data;
+		*s='-';
+	}
+	else *s=' ';
+ 
+	*++s =temp_data/10000+0x30;
+	temp_data=temp_data%10000;     //取余运算
+ 
+	*++s =temp_data/1000+0x30;
+	temp_data=temp_data%1000;     //取余运算
+ 
+	*++s =temp_data/100+0x30;
+	temp_data=temp_data%100;     //取余运算
+	*++s =temp_data/10+0x30;
+	temp_data=temp_data%10;      //取余运算
+	*++s =temp_data+0x30; 
+
+	for(i=0;i<6;i++)
+	{
+    sendData(str[i]);
+    }
+}
 #endif

@@ -3,11 +3,11 @@
 #include "Serial.h"
 #include "StepMotor.h"
 #include "mpu6050.h"
-#define Round 4096
+#define pi 3.14159
 
 void main()
 {
-    int omega;
+    int x,y,z;
     // while(1)
     // {
     delay(500);
@@ -15,17 +15,27 @@ void main()
     InitMPU6050();
 
     while(1){
-    omega = GetData(GYRO_ZOUT_H);
+    x = GetData(ACCEL_XOUT_H);
+    y = GetData(ACCEL_YOUT_H);
+    z = GetData(ACCEL_ZOUT_H);
+    sendString(x);
+	sendString(y);
+	sendString(z);
+    sendData(0x0d);
+    sendData(0x0a);
+    // tx = (atan((float)x/sqrt(fabs(y*y+z*z))));
+    
+
     //omega = omega *4000/48;
     // sendData('A');
 	// }
-	omega /=10;
-    if(omega>0)
-    motorRun(0,omega,10);
-    else
-    motorRun(1,-omega,10);
-   // mpu();
-    delay(100);
+// 	omega /=10;
+//     if(omega>0)
+//     motorRun(0,omega,10);
+//     else
+//     motorRun(1,-omega,10);
+//    // mpu();
+//     delay(100);
     }
     
 }
