@@ -25,7 +25,7 @@ void main()
     else
     motorRun(1,-omega,10);
    // mpu();
-    delay(00);
+    delay(100);
     }
     
 }

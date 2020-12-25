@@ -4,11 +4,10 @@
 <h1>µVision Build Log</h1>
 <h2>Project:</h2>
 E:\MCproject\MicroComputer.uvproj
-Project File Date:  12/23/2020
+Project File Date:  12/25/2020
 
 <h2>Output:</h2>
 Build target 'Target 1'
-compiling main.c...
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?INIT_UART?MAIN
@@ -16,18 +15,7 @@ linking...
     SEGMENT: ?PR?_SERIPUSHSEND?MAIN
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?MPU?MAIN
-Program Size: data=27.1 xdata=0 code=1109
-creating hex file from "MicroComputer"...
-"MicroComputer" - 0 Error(s), 3 Warning(s).
-Build target 'Target 1'
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT_UART?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?MPU?MAIN
-Program Size: data=27.1 xdata=0 code=1109
+Program Size: data=27.1 xdata=0 code=1221
 creating hex file from "MicroComputer"...
 "MicroComputer" - 0 Error(s), 3 Warning(s).
 Build target 'Target 1'
@@ -39,7 +27,7 @@ linking...
     SEGMENT: ?PR?_SERIPUSHSEND?MAIN
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?MPU?MAIN
-Program Size: data=27.1 xdata=0 code=1109
+Program Size: data=27.1 xdata=0 code=1221
 creating hex file from "MicroComputer"...
 "MicroComputer" - 0 Error(s), 3 Warning(s).
 Build target 'Target 1'
@@ -51,18 +39,7 @@ linking...
     SEGMENT: ?PR?_SERIPUSHSEND?MAIN
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?MPU?MAIN
-Program Size: data=27.1 xdata=0 code=1109
-creating hex file from "MicroComputer"...
-"MicroComputer" - 0 Error(s), 3 Warning(s).
-Build target 'Target 1'
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT_UART?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?MPU?MAIN
-Program Size: data=27.1 xdata=0 code=1109
+Program Size: data=27.1 xdata=0 code=1221
 creating hex file from "MicroComputer"...
 "MicroComputer" - 0 Error(s), 3 Warning(s).
 Build target 'Target 1'
@@ -74,7 +51,7 @@ linking...
     SEGMENT: ?PR?_SERIPUSHSEND?MAIN
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?MPU?MAIN
-Program Size: data=27.1 xdata=0 code=1109
+Program Size: data=27.1 xdata=0 code=1221
 creating hex file from "MicroComputer"...
 "MicroComputer" - 0 Error(s), 3 Warning(s).
 Build target 'Target 1'
@@ -86,131 +63,7 @@ linking...
     SEGMENT: ?PR?_SERIPUSHSEND?MAIN
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?MPU?MAIN
-Program Size: data=27.1 xdata=0 code=1109
-creating hex file from "MicroComputer"...
-"MicroComputer" - 0 Error(s), 3 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT_UART?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?MPU?MAIN
-Program Size: data=27.1 xdata=0 code=1109
-creating hex file from "MicroComputer"...
-"MicroComputer" - 0 Error(s), 3 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT_UART?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?MPU?MAIN
-Program Size: data=27.1 xdata=0 code=1109
-creating hex file from "MicroComputer"...
-"MicroComputer" - 0 Error(s), 3 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT_UART?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?MPU?MAIN
-Program Size: data=27.1 xdata=0 code=1109
-creating hex file from "MicroComputer"...
-"MicroComputer" - 0 Error(s), 3 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT_UART?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?MPU?MAIN
-Program Size: data=27.1 xdata=0 code=1109
-creating hex file from "MicroComputer"...
-"MicroComputer" - 0 Error(s), 3 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT_UART?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?MPU?MAIN
-Program Size: data=27.1 xdata=0 code=1109
-creating hex file from "MicroComputer"...
-"MicroComputer" - 0 Error(s), 3 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-MAIN.C(18): error C141: syntax error near '}'
-Target not created
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT_UART?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?MPU?MAIN
-Program Size: data=27.1 xdata=0 code=1116
-creating hex file from "MicroComputer"...
-"MicroComputer" - 0 Error(s), 3 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT_UART?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?MPU?MAIN
-Program Size: data=27.1 xdata=0 code=1116
-creating hex file from "MicroComputer"...
-"MicroComputer" - 0 Error(s), 3 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT_UART?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?MPU?MAIN
-Program Size: data=27.1 xdata=0 code=1116
-creating hex file from "MicroComputer"...
-"MicroComputer" - 0 Error(s), 3 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT_UART?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?MPU?MAIN
-Program Size: data=27.1 xdata=0 code=1116
-creating hex file from "MicroComputer"...
-"MicroComputer" - 0 Error(s), 3 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT_UART?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?MPU?MAIN
-Program Size: data=27.1 xdata=0 code=1116
+Program Size: data=27.1 xdata=0 code=1221
 creating hex file from "MicroComputer"...
 "MicroComputer" - 0 Error(s), 3 Warning(s).
 Build target 'Target 1'
@@ -221,253 +74,6 @@ linking...
     SEGMENT: ?PR?_SERIPUSHSEND?MAIN
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?MPU?MAIN
-Program Size: data=27.1 xdata=0 code=1116
-creating hex file from "MicroComputer"...
-"MicroComputer" - 0 Error(s), 3 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT_UART?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?MPU?MAIN
-Program Size: data=27.1 xdata=0 code=1117
-creating hex file from "MicroComputer"...
-"MicroComputer" - 0 Error(s), 3 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT_UART?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?MPU?MAIN
-Program Size: data=27.1 xdata=0 code=1120
-creating hex file from "MicroComputer"...
-"MicroComputer" - 0 Error(s), 3 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT_UART?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?MPU?MAIN
-Program Size: data=27.1 xdata=0 code=1120
-creating hex file from "MicroComputer"...
-"MicroComputer" - 0 Error(s), 3 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT_UART?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?MPU?MAIN
-Program Size: data=27.1 xdata=0 code=1120
-creating hex file from "MicroComputer"...
-"MicroComputer" - 0 Error(s), 3 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT_UART?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?MPU?MAIN
-Program Size: data=29.1 xdata=0 code=1177
-creating hex file from "MicroComputer"...
-"MicroComputer" - 0 Error(s), 3 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT_UART?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?MPU?MAIN
-Program Size: data=29.1 xdata=0 code=1177
-creating hex file from "MicroComputer"...
-"MicroComputer" - 0 Error(s), 3 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT_UART?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?MPU?MAIN
-Program Size: data=29.1 xdata=0 code=1177
-creating hex file from "MicroComputer"...
-"MicroComputer" - 0 Error(s), 3 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-MPU6050.H(153): warning C206: 'Delay5us': missing function-prototype
-MAIN.C(18): error C193: '=': illegal type conversion from/to 'void'
-Target not created
-Build target 'Target 1'
-compiling main.c...
-MAIN.C(18): error C193: '=': illegal type conversion from/to 'void'
-Target not created
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT_UART?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?MPU?MAIN
-Program Size: data=27.1 xdata=0 code=1177
-creating hex file from "MicroComputer"...
-"MicroComputer" - 0 Error(s), 3 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT_UART?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?MPU?MAIN
-Program Size: data=27.1 xdata=0 code=1176
-creating hex file from "MicroComputer"...
-"MicroComputer" - 0 Error(s), 3 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT_UART?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?MPU?MAIN
-Program Size: data=27.1 xdata=0 code=1494
-creating hex file from "MicroComputer"...
-"MicroComputer" - 0 Error(s), 3 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT_UART?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?MPU?MAIN
-Program Size: data=27.1 xdata=0 code=1212
-creating hex file from "MicroComputer"...
-"MicroComputer" - 0 Error(s), 3 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT_UART?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?MPU?MAIN
-Program Size: data=27.1 xdata=0 code=1193
-creating hex file from "MicroComputer"...
-"MicroComputer" - 0 Error(s), 3 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT_UART?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?MPU?MAIN
-Program Size: data=27.1 xdata=0 code=1204
-creating hex file from "MicroComputer"...
-"MicroComputer" - 0 Error(s), 3 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT_UART?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?MPU?MAIN
-Program Size: data=27.1 xdata=0 code=1203
-creating hex file from "MicroComputer"...
-"MicroComputer" - 0 Error(s), 3 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT_UART?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?MPU?MAIN
-Program Size: data=27.1 xdata=0 code=1196
-creating hex file from "MicroComputer"...
-"MicroComputer" - 0 Error(s), 3 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT_UART?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?MPU?MAIN
-Program Size: data=27.1 xdata=0 code=1207
-creating hex file from "MicroComputer"...
-"MicroComputer" - 0 Error(s), 3 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT_UART?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?MPU?MAIN
-Program Size: data=27.1 xdata=0 code=1220
-creating hex file from "MicroComputer"...
-"MicroComputer" - 0 Error(s), 3 Warning(s).
-Build target 'Target 1'
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT_UART?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?MPU?MAIN
-Program Size: data=27.1 xdata=0 code=1220
-creating hex file from "MicroComputer"...
-"MicroComputer" - 0 Error(s), 3 Warning(s).
-Build target 'Target 1'
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT_UART?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?MPU?MAIN
-Program Size: data=27.1 xdata=0 code=1220
-creating hex file from "MicroComputer"...
-"MicroComputer" - 0 Error(s), 3 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT_UART?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?MPU?MAIN
-Program Size: data=27.1 xdata=0 code=1220
+Program Size: data=27.1 xdata=0 code=1221
 creating hex file from "MicroComputer"...
 "MicroComputer" - 0 Error(s), 3 Warning(s).
