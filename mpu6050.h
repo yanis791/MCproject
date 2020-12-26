@@ -268,7 +268,7 @@ void InitMPU6050()
 //******************************************************************************************************
 int GetData(uchar REG_Address)
 {
-	uchar H,L,i;
+	uchar H,L;
 	int value;
 	H=Single_ReadI2C(REG_Address);
 	L=Single_ReadI2C(REG_Address+1);

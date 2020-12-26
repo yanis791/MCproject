@@ -1,4 +1,4 @@
-C51 COMPILER V9.00   MAIN                                                                  12/25/2020 23:37:52 PAGE 1   
+C51 COMPILER V9.00   MAIN                                                                  12/26/2020 17:29:44 PAGE 1   
 
 
 C51 COMPILER V9.00, COMPILATION OF MODULE MAIN
@@ -12,7 +12,6 @@ line level    source
    3          #include "Serial.h"
    4          #include "StepMotor.h"
    5          #include "mpu6050.h"
-*** WARNING C280 IN LINE 271 OF MPU6050.H: 'i': unreferenced local variable
    6          #define pi 3.14159
    7          
    8          void main()
@@ -46,7 +45,7 @@ line level    source
   36   2      //     else
   37   2      //     motorRun(1,-omega,10);
   38   2      //    // mpu();
-  39   2           delay(200);
+  39   2           delay(100);
   40   2          }
   41   1          
   42   1      }
@@ -55,16 +54,16 @@ line level    source
 
 
 MODULE INFORMATION:   STATIC OVERLAYABLE
-   CODE SIZE        =   1187    ----
+   CODE SIZE        =   1183    ----
    CONSTANT SIZE    =     16    ----
    XDATA SIZE       =   ----    ----
    PDATA SIZE       =   ----    ----
-   DATA SIZE        =      9      31
+   DATA SIZE        =      9      30
    IDATA SIZE       =   ----    ----
    BIT SIZE         =   ----       1
-C51 COMPILER V9.00   MAIN                                                                  12/25/2020 23:37:52 PAGE 2   
-
 END OF MODULE INFORMATION.
 
+C51 COMPILER V9.00   MAIN                                                                  12/26/2020 17:29:44 PAGE 2   
 
-C51 COMPILATION COMPLETE.  1 WARNING(S),  0 ERROR(S)
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

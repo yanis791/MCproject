@@ -80,19 +80,19 @@ void send2Host(int x,int y,int z)
 	sendData('#');
 	send = x >> 8;
 	sendData(send);
-	x = x ;
 	send = x;
 	sendData(send);
+
 	send = y >> 8;
 	sendData(send);
-	y = y ;
 	send = y;
 	sendData(send);
+
 	send = z >> 8;
 	sendData(send);
-	z = z ;
 	send = z;
 	sendData(send);
+
 	sendData('$');
 }
 #endif

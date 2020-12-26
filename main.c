@@ -36,7 +36,7 @@ void main()
 //     else
 //     motorRun(1,-omega,10);
 //    // mpu();
-     delay(200);
+     delay(100);
     }
     
 }

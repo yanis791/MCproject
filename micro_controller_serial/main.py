@@ -26,40 +26,40 @@ timex = 0.1  # 超时设置
 SCS = None
 ser = None
 SERIAL_STATUS = 0
-curve = None
-data = None
+curve_pitch = None
+data_pitch = None
+curve_roll = None
+data_roll = None
+pitch = 0
+roll = 0
+gz_all= 0
+gz_num = 0
+
 # Variable ends
 
 def data_solve(serData):
-    global data
+    global data_pitch, curve_pitch, pitch, roll,gz_num,gz_all
     x = int.from_bytes(serData[1:3], byteorder='big', signed=False)
     y = int.from_bytes(serData[3:5], byteorder='big', signed=False)
     z = int.from_bytes(serData[5:7], byteorder='big', signed=False)
 
-    x = x*4 / 65536
-    y = y*4 / 65536
-    z = z*4 / 65536
-    if x>2 :
-        x-=4
-    if y>2 :
-        y-=4
+    x = x * 4 / 65536
+    y = y * 4 / 65536
+    z = z * 4 / 65536
+
+    if x > 2:
+        x -= 4
+    if y > 2:
+        y -= 4
     if z > 2:
         z -= 4
 
-    print(x, y, z)
-    theta_x = atan(x / sqrt(y * y + z * z)) * 180 / pi
-    theta_y = atan(y / sqrt(x * x + z * z)) * 180 / pi
-    theta_z = atan(z / sqrt(y * y + x * x)) * 180 / pi
+    pitch = atan(x / sqrt(y * y + z * z)) * 180 / pi
+    roll = atan(y / sqrt(x * x + z * z)) * 180 / pi
 
-    ui.lcdNumber.display(format(theta_x, '.1f'))
-    ui.lcdNumber_2.display(format(theta_y, '.1f'))
-    ui.lcdNumber_3.display(format(theta_z, '.1f'))
+    ui.lcdNumber.display(format(pitch, '.1f'))
+    ui.lcdNumber_2.display(format(roll, '.1f'))
 
-    if len(data)<300:
-        data[len(data)] = theta_x
-    else:
-        data[:-1] = data[1:]
-        data[-1] = theta_x
 
 
 def data_received(thread_name):
@@ -128,13 +128,17 @@ def serial_open():
             ui.serial_now.setText("关闭失败")
             SERIAL_STATUS = 1
 
+
 # 数据左移
 def update_data():
-    global data,curve
-    data[:-1] = data[1:]
-    data[-1] = np.random.normal()
-    # 数据填充到绘制曲线中
-    curve.setData(data)
+    global data_pitch, curve_pitch, pitch, roll, data_roll, curve_roll
+    data_pitch[:-1] = data_pitch[1:]
+    data_pitch[-1] = pitch
+    curve_pitch.setData(data_pitch)
+
+    data_roll[:-1] = data_roll[1:]
+    data_roll[-1] = roll
+    curve_roll.setData(data_roll)
 
 
 if __name__ == '__main__':
@@ -155,17 +159,20 @@ if __name__ == '__main__':
     ui.comboBox_5.setCurrentIndex(0)
     # Link to the button function
     ui.pushButton.clicked.connect(serial_open)  # Open Serial
-    #plot
-    plt = PlotWidget()
-    ui.verticalLayout.addWidget(plt)
-    plt.setGeometry(QtCore.QRect(25, 25, 550, 550))
-    # # 仿写 mode1 代码中的数据
-    # # 生成 300 个正态分布的随机数
-    # data = np.random.normal(size=300)
-    # curve = plt.plot(data, name="mode1")
+    # plot
+    plt_pitch = PlotWidget()
+    ui.verticalLayout.addWidget(plt_pitch)
+    plt_pitch.setGeometry(QtCore.QRect(25, 25, 1000, 1000))  # (25, 25, 550, 550))
+    data_pitch = np.zeros(200)
+    curve_pitch = plt_pitch.plot(data_pitch, name="mode1")
+    plt_roll = PlotWidget()
+    ui.verticalLayout_2.addWidget(plt_roll)
+    plt_roll.setGeometry(QtCore.QRect(25, 25, 1000, 1000))  # (25, 25, 550, 550))
+    data_roll = np.zeros(200)
+    curve_roll = plt_roll.plot(data_roll, name="mode2")
     # # 设定定时器,绑定 update_data 函数
-    # timer = pq.QtCore.QTimer()
-    # timer.timeout.connect(update_data)
-    # timer.start(50)
+    timer = pq.QtCore.QTimer()
+    timer.timeout.connect(update_data)
+    timer.start(50)
 
     sys.exit(app.exec_())

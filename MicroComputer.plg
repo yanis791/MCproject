@@ -160,3 +160,37 @@ linking...
 Program Size: data=49.1 xdata=0 code=1507
 creating hex file from "MicroComputer"...
 "MicroComputer" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MPU6050.H(271): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SENDSTRING?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_MOTORRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT_UART?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MPU?MAIN
+Program Size: data=49.1 xdata=0 code=1507
+creating hex file from "MicroComputer"...
+"MicroComputer" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MPU6050.H(271): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SENDSTRING?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_MOTORRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT_UART?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MPU?MAIN
+Program Size: data=49.1 xdata=0 code=1507
+creating hex file from "MicroComputer"...
+"MicroComputer" - 0 Error(s), 6 Warning(s).

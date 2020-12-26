@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>584</width>
-    <height>650</height>
+    <width>906</width>
+    <height>634</height>
    </rect>
   </property>
   <property name="font">
@@ -326,8 +326,8 @@
    <widget class="QLCDNumber" name="lcdNumber">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>20</y>
+      <x>120</x>
+      <y>310</y>
       <width>91</width>
       <height>51</height>
      </rect>
@@ -336,8 +336,8 @@
    <widget class="QTextEdit" name="textEdit">
     <property name="geometry">
      <rect>
-      <x>430</x>
-      <y>320</y>
+      <x>20</x>
+      <y>490</y>
       <width>104</width>
       <height>64</height>
      </rect>
@@ -346,8 +346,8 @@
    <widget class="QPushButton" name="set">
     <property name="geometry">
      <rect>
-      <x>430</x>
-      <y>410</y>
+      <x>170</x>
+      <y>500</y>
       <width>101</width>
       <height>51</height>
      </rect>
@@ -359,18 +359,8 @@
    <widget class="QLCDNumber" name="lcdNumber_2">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>90</y>
-      <width>91</width>
-      <height>51</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QLCDNumber" name="lcdNumber_3">
-    <property name="geometry">
-     <rect>
-      <x>300</x>
-      <y>160</y>
+      <x>120</x>
+      <y>380</y>
       <width>91</width>
       <height>51</height>
      </rect>
@@ -379,21 +369,21 @@
    <widget class="QLabel" name="serial_now">
     <property name="geometry">
      <rect>
-      <x>220</x>
-      <y>225</y>
+      <x>70</x>
+      <y>250</y>
       <width>151</width>
-      <height>21</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_6">
     <property name="geometry">
      <rect>
-      <x>410</x>
-      <y>30</y>
+      <x>230</x>
+      <y>320</y>
       <width>81</width>
       <height>31</height>
      </rect>
@@ -405,8 +395,8 @@
    <widget class="QLabel" name="label_7">
     <property name="geometry">
      <rect>
-      <x>410</x>
-      <y>100</y>
+      <x>230</x>
+      <y>390</y>
       <width>81</width>
       <height>31</height>
      </rect>
@@ -418,65 +408,50 @@
    <widget class="QLabel" name="label_8">
     <property name="geometry">
      <rect>
-      <x>410</x>
-      <y>170</y>
-      <width>81</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>度</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_10">
-    <property name="geometry">
-     <rect>
-      <x>220</x>
-      <y>40</y>
+      <x>20</x>
+      <y>330</y>
       <width>68</width>
       <height>15</height>
      </rect>
     </property>
     <property name="text">
-     <string>x</string>
+     <string>pitch</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_11">
     <property name="geometry">
      <rect>
-      <x>220</x>
-      <y>110</y>
+      <x>20</x>
+      <y>400</y>
       <width>68</width>
       <height>15</height>
      </rect>
     </property>
     <property name="text">
-     <string>y</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_12">
-    <property name="geometry">
-     <rect>
-      <x>230</x>
-      <y>180</y>
-      <width>68</width>
-      <height>15</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>z</string>
+     <string>roll</string>
     </property>
    </widget>
    <widget class="QWidget" name="verticalLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>250</y>
-      <width>421</width>
-      <height>341</height>
+      <x>330</x>
+      <y>20</y>
+      <width>531</width>
+      <height>261</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout"/>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>290</y>
+      <width>531</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2"/>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -484,8 +459,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>584</width>
-     <height>22</height>
+     <width>906</width>
+     <height>26</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
