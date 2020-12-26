@@ -1,3 +1,5 @@
+#ifndef     motor
+#define		motor
 #include <reg52.h>
 #include "stdio.h"
 
@@ -49,3 +51,4 @@ void controlMotor(int omega)
 		motorRun(1,-omega,10);
 	}
 }
+#endif

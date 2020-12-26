@@ -32,13 +32,16 @@ curve_roll = None
 data_roll = None
 pitch = 0
 roll = 0
-gz_all= 0
+gz_all = 0
 gz_num = 0
+init_angle = 0
+ui = None
+
 
 # Variable ends
 
 def data_solve(serData):
-    global data_pitch, curve_pitch, pitch, roll,gz_num,gz_all
+    global data_pitch, curve_pitch, pitch, roll, gz_num, gz_all
     x = int.from_bytes(serData[1:3], byteorder='big', signed=False)
     y = int.from_bytes(serData[3:5], byteorder='big', signed=False)
     z = int.from_bytes(serData[5:7], byteorder='big', signed=False)
@@ -59,7 +62,6 @@ def data_solve(serData):
 
     ui.lcdNumber.display(format(pitch, '.1f'))
     ui.lcdNumber_2.display(format(roll, '.1f'))
-
 
 
 def data_received(thread_name):
@@ -129,6 +131,18 @@ def serial_open():
             SERIAL_STATUS = 1
 
 
+def data_send(data):
+    global ser, SERIAL_STATUS
+    if SERIAL_STATUS == 1:
+        try:
+            print(hex(data).encode())
+            result = ser.write(hex(data).encode())
+        except Exception as e:
+            ui.serial_now.setText("SEND_ERROR!")
+    else:
+        ui.serial_now.setText("串口未开启！")
+
+
 # 数据左移
 def update_data():
     global data_pitch, curve_pitch, pitch, roll, data_roll, curve_roll
@@ -140,6 +154,14 @@ def update_data():
     data_roll[-1] = roll
     curve_roll.setData(data_roll)
 
+
+def sendMotorAngle():
+   data = ui.textEdit.toPlainText()
+   data = int(data)
+   data = data % 360
+   data = data*2/3
+   data = int(data)
+   data_send(data)
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
@@ -174,5 +196,7 @@ if __name__ == '__main__':
     timer = pq.QtCore.QTimer()
     timer.timeout.connect(update_data)
     timer.start(50)
+
+    ui.set.clicked.connect(sendMotorAngle)
 
     sys.exit(app.exec_())

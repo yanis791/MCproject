@@ -2,6 +2,7 @@
 #define		Serial
 #include	<reg52.h>
 #include	<intrins.h>
+#include    <StepMotor.h>
 
 #define BAUD0		0xfd
 
@@ -27,16 +28,25 @@ void InitRs232(void)
 }
 
 
-// void Serial(void) interrupt 4
-// {
-//   if(RI)
-//    {
-//     RI=0;
-//     a=SBUF;
-//     ES=0;
-//    }
+void Ser(void) interrupt 4
+{
+  unsigned char flag;
+  int num;
+  if(RI)
+   {
+    RI=0;
+	flag = SBUF;
+	num = flag*17;
 
-// }
+    if(num>0)
+		motorRun(1,num,10);
+	else
+		motorRun(0,-num,10);
+    ES=0;
+    flag=1;
+   }
+
+}
 
 void sendData(unsigned char data2send)
 {

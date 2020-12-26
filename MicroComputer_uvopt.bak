@@ -203,10 +203,10 @@
       <FileType>1</FileType>
       <tvExp>1</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>14</ColumnNumber>
+      <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>7</TopLine>
-      <CurrentLine>10</CurrentLine>
+      <TopLine>11</TopLine>
+      <CurrentLine>33</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\main.c</PathWithFileName>
       <FilenameWithoutPath>main.c</FilenameWithoutPath>
@@ -241,8 +241,8 @@
 
   <AlienFiles>
     <PathWithFilename>E:\MCproject\STEPMOTOR.H</PathWithFilename>
-    <TopLine>1</TopLine>
-    <CurrentLine>1</CurrentLine>
+    <TopLine>6</TopLine>
+    <CurrentLine>9</CurrentLine>
     <Constant>0</Constant>
     <WindowPosition>
       <length>0</length>
@@ -267,8 +267,8 @@
 
   <AlienFiles>
     <PathWithFilename>E:\MCproject\SERIAL.H</PathWithFilename>
-    <TopLine>30</TopLine>
-    <CurrentLine>30</CurrentLine>
+    <TopLine>69</TopLine>
+    <CurrentLine>90</CurrentLine>
     <Constant>0</Constant>
     <WindowPosition>
       <length>0</length>
@@ -1632,7 +1632,7 @@
     <ActiveMDIGroup>0</ActiveMDIGroup>
     <MDIGroup>
       <Size>100</Size>
-      <ActiveTab>1</ActiveTab>
+      <ActiveTab>2</ActiveTab>
       <Documents>
         <Doc>
           <Name>.\STARTUP.A51</Name>
@@ -1642,21 +1642,21 @@
         </Doc>
         <Doc>
           <Name>.\main.c</Name>
-          <ColumnNumber>14</ColumnNumber>
-          <TopLine>7</TopLine>
-          <CurrentLine>10</CurrentLine>
+          <ColumnNumber>0</ColumnNumber>
+          <TopLine>11</TopLine>
+          <CurrentLine>33</CurrentLine>
         </Doc>
         <Doc>
           <Name>SERIAL.H</Name>
-          <ColumnNumber>0</ColumnNumber>
-          <TopLine>30</TopLine>
-          <CurrentLine>30</CurrentLine>
+          <ColumnNumber>50</ColumnNumber>
+          <TopLine>69</TopLine>
+          <CurrentLine>90</CurrentLine>
         </Doc>
         <Doc>
           <Name>STEPMOTOR.H</Name>
-          <ColumnNumber>30</ColumnNumber>
-          <TopLine>1</TopLine>
-          <CurrentLine>1</CurrentLine>
+          <ColumnNumber>0</ColumnNumber>
+          <TopLine>6</TopLine>
+          <CurrentLine>9</CurrentLine>
         </Doc>
         <Doc>
           <Name>MPU6050.H</Name>
