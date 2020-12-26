@@ -9,188 +9,612 @@ Project File Date:  12/25/2020
 <h2>Output:</h2>
 Build target 'Target 1'
 compiling main.c...
-MPU6050.H(271): warning C280: 'i': unreferenced local variable
+STEPMOTOR.H(40): error C202: 'k': undefined identifier
+STEPMOTOR.H(41): error C202: 'k': undefined identifier
+STEPMOTOR.H(42): error C202: 'k': undefined identifier
+STEPMOTOR.H(42): error C202: 'k': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(26): warning C206: 'lcd': missing function-prototype
+MAIN.C(26): error C267: 'lcd': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling main.c...
+TUBES.H(50): error C141: syntax error near ')'
+TUBES.H(52): error C141: syntax error near '='
+Target not created
+Build target 'Target 1'
+compiling main.c...
+TUBES.H(52): error C141: syntax error near '='
+Target not created
+Build target 'Target 1'
+compiling main.c...
+TUBES.H(50): warning C280: 'num': unreferenced local variable
+MAIN.C(11): warning C280: 'k': unreferenced local variable
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_SENDSTRING?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_MOTORRUN?MAIN
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?INIT_UART?MAIN
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_SERIPUSHSEND?MAIN
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?MPU?MAIN
-Program Size: data=49.1 xdata=0 code=1520
+Program Size: data=47.1 xdata=0 code=1806
 creating hex file from "MicroComputer"...
 "MicroComputer" - 0 Error(s), 6 Warning(s).
 Build target 'Target 1'
 compiling main.c...
-MPU6050.H(271): warning C280: 'i': unreferenced local variable
+TUBES.H(18): error C242: 'array[]': too many initializers
+TUBES.H(53): error C141: syntax error near 'float'
+TUBES.H(53): error C202: 'gyro': undefined identifier
+TUBES.H(54): error C202: 'gyro': undefined identifier
+TUBES.H(55): error C202: 'gyro': undefined identifier
+TUBES.H(56): error C202: 'l': undefined identifier
+TUBES.H(56): error C141: syntax error near 'if'
+TUBES.H(56): error C202: 'gyro': undefined identifier
+TUBES.H(57): error C141: syntax error near 'omega'
+TUBES.H(59): error C202: 'omega': undefined identifier
+TUBES.H(60): error C202: 'omega': undefined identifier
+TUBES.H(62): error C202: 'omega': undefined identifier
+TUBES.H(63): error C202: 'omega': undefined identifier
+TUBES.H(65): error C202: 'omega': undefined identifier
+TUBES.H(66): error C202: 'omega': undefined identifier
+TUBES.H(68): error C202: 'omega': undefined identifier
+TUBES.H(69): error C202: 'omega': undefined identifier
+TUBES.H(71): error C202: 'omega': undefined identifier
+TUBES.H(72): error C202: 'omega': undefined identifier
+TUBES.H(74): error C202: 'gyro': undefined identifier
+TUBES.H(76): error C141: syntax error near 'else'
+TUBES.H(78): error C141: syntax error near 'delayms'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+TUBES.H(18): error C242: 'array[]': too many initializers
+TUBES.H(53): error C141: syntax error near 'float'
+TUBES.H(53): error C202: 'gyro': undefined identifier
+TUBES.H(54): error C202: 'gyro': undefined identifier
+TUBES.H(55): error C202: 'gyro': undefined identifier
+TUBES.H(56): error C202: 'l': undefined identifier
+TUBES.H(56): error C141: syntax error near 'if'
+TUBES.H(56): error C202: 'gyro': undefined identifier
+TUBES.H(57): error C141: syntax error near 'omega'
+TUBES.H(59): error C202: 'omega': undefined identifier
+TUBES.H(60): error C202: 'omega': undefined identifier
+TUBES.H(62): error C202: 'omega': undefined identifier
+TUBES.H(63): error C202: 'omega': undefined identifier
+TUBES.H(65): error C202: 'omega': undefined identifier
+TUBES.H(66): error C202: 'omega': undefined identifier
+TUBES.H(68): error C202: 'omega': undefined identifier
+TUBES.H(69): error C202: 'omega': undefined identifier
+TUBES.H(71): error C202: 'omega': undefined identifier
+TUBES.H(72): error C202: 'omega': undefined identifier
+TUBES.H(74): error C202: 'gyro': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+TUBES.H(18): error C242: 'array[]': too many initializers
+TUBES.H(53): error C141: syntax error near 'float'
+TUBES.H(53): error C202: 'gyro': undefined identifier
+TUBES.H(54): error C202: 'gyro': undefined identifier
+TUBES.H(55): error C202: 'gyro': undefined identifier
+TUBES.H(56): error C202: 'l': undefined identifier
+TUBES.H(56): error C141: syntax error near 'if'
+TUBES.H(56): error C202: 'gyro': undefined identifier
+TUBES.H(57): error C141: syntax error near 'omega'
+TUBES.H(74): error C202: 'gyro': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+TUBES.H(18): error C242: 'array[]': too many initializers
+TUBES.H(53): error C141: syntax error near 'double'
+TUBES.H(53): error C202: 'gyro': undefined identifier
+TUBES.H(54): error C202: 'gyro': undefined identifier
+TUBES.H(55): error C202: 'gyro': undefined identifier
+TUBES.H(56): error C202: 'l': undefined identifier
+TUBES.H(56): error C141: syntax error near 'if'
+TUBES.H(56): error C202: 'gyro': undefined identifier
+TUBES.H(57): error C141: syntax error near 'omega'
+TUBES.H(74): error C202: 'gyro': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+TUBES.H(53): error C141: syntax error near 'double'
+TUBES.H(53): error C202: 'gyro': undefined identifier
+TUBES.H(54): error C202: 'gyro': undefined identifier
+TUBES.H(55): error C202: 'gyro': undefined identifier
+TUBES.H(56): error C202: 'l': undefined identifier
+TUBES.H(56): error C141: syntax error near 'if'
+TUBES.H(56): error C202: 'gyro': undefined identifier
+TUBES.H(57): error C141: syntax error near 'omega'
+TUBES.H(74): error C202: 'gyro': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+TUBES.H(53): error C141: syntax error near 'double'
+TUBES.H(53): error C202: 'gyro': undefined identifier
+TUBES.H(54): error C202: 'gyro': undefined identifier
+TUBES.H(55): error C202: 'gyro': undefined identifier
+TUBES.H(56): error C202: 'gyro': undefined identifier
+TUBES.H(56): error C202: 'gyro': undefined identifier
+TUBES.H(57): error C202: 'gyro': undefined identifier
+TUBES.H(74): error C202: 'gyro': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+TUBES.H(53): error C141: syntax error near 'float'
+TUBES.H(53): error C202: 'gyro': undefined identifier
+TUBES.H(54): error C202: 'gyro': undefined identifier
+TUBES.H(55): error C202: 'gyro': undefined identifier
+TUBES.H(56): error C202: 'gyro': undefined identifier
+TUBES.H(56): error C202: 'gyro': undefined identifier
+TUBES.H(57): error C202: 'gyro': undefined identifier
+TUBES.H(74): error C202: 'gyro': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+TUBES.H(53): error C141: syntax error near 'float'
+TUBES.H(53): error C202: 'gyro': undefined identifier
+TUBES.H(54): error C202: 'gyro': undefined identifier
+TUBES.H(55): error C202: 'gyro': undefined identifier
+TUBES.H(56): error C202: 'gyro': undefined identifier
+TUBES.H(56): error C202: 'gyro': undefined identifier
+TUBES.H(57): error C202: 'gyro': undefined identifier
+TUBES.H(74): error C202: 'gyro': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+TUBES.H(53): error C141: syntax error near 'float'
+TUBES.H(53): error C202: 'gyro': undefined identifier
+TUBES.H(54): error C202: 'gyro': undefined identifier
+TUBES.H(55): error C202: 'gyro': undefined identifier
+TUBES.H(56): error C202: 'gyro': undefined identifier
+TUBES.H(56): error C202: 'gyro': undefined identifier
+TUBES.H(57): error C202: 'gyro': undefined identifier
+TUBES.H(74): error C202: 'gyro': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+TUBES.H(53): error C141: syntax error near 'int'
+TUBES.H(53): error C202: 'gyro': undefined identifier
+TUBES.H(54): error C202: 'gyro': undefined identifier
+TUBES.H(55): error C202: 'gyro': undefined identifier
+TUBES.H(56): error C202: 'gyro': undefined identifier
+TUBES.H(56): error C202: 'gyro': undefined identifier
+TUBES.H(57): error C202: 'gyro': undefined identifier
+TUBES.H(74): error C202: 'gyro': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+TUBES.H(53): error C141: syntax error near 'int'
+TUBES.H(53): error C202: 'gyro': undefined identifier
+TUBES.H(54): error C202: 'gyro': undefined identifier
+TUBES.H(55): error C202: 'gyro': undefined identifier
+TUBES.H(56): error C202: 'gyro': undefined identifier
+TUBES.H(56): error C202: 'gyro': undefined identifier
+TUBES.H(57): error C202: 'gyro': undefined identifier
+TUBES.H(74): error C202: 'gyro': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+TUBES.H(53): error C141: syntax error near 'int'
+TUBES.H(53): error C202: 'gyro': undefined identifier
+TUBES.H(54): error C202: 'gyro': undefined identifier
+TUBES.H(55): error C202: 'gyro': undefined identifier
+TUBES.H(56): error C202: 'gyro': undefined identifier
+TUBES.H(56): error C202: 'gyro': undefined identifier
+TUBES.H(57): error C202: 'gyro': undefined identifier
+TUBES.H(74): error C202: 'gyro': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+TUBES.H(53): error C141: syntax error near 'int'
+TUBES.H(53): error C202: 'gyro': undefined identifier
+TUBES.H(54): error C202: 'gyro': undefined identifier
+TUBES.H(55): error C202: 'gyro': undefined identifier
+TUBES.H(56): error C202: 'gyro': undefined identifier
+TUBES.H(56): error C202: 'gyro': undefined identifier
+TUBES.H(57): error C202: 'gyro': undefined identifier
+TUBES.H(74): error C202: 'gyro': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+TUBES.H(53): error C141: syntax error near 'int'
+TUBES.H(53): error C202: 'gyro': undefined identifier
+TUBES.H(54): error C202: 'gyro': undefined identifier
+TUBES.H(55): error C202: 'gyro': undefined identifier
+TUBES.H(56): error C202: 'gyro': undefined identifier
+TUBES.H(56): error C202: 'gyro': undefined identifier
+TUBES.H(57): error C202: 'gyro': undefined identifier
+TUBES.H(74): error C202: 'gyro': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+TUBES.H(60): warning C275: expression with possibly no effect
+TUBES.H(63): warning C275: expression with possibly no effect
+TUBES.H(66): warning C275: expression with possibly no effect
+TUBES.H(69): warning C275: expression with possibly no effect
+TUBES.H(72): warning C275: expression with possibly no effect
+MAIN.C(11): warning C280: 'k': unreferenced local variable
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_SENDSTRING?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_MOTORRUN?MAIN
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?INIT_UART?MAIN
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_SERIPUSHSEND?MAIN
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?MPU?MAIN
-Program Size: data=49.1 xdata=0 code=1530
+Program Size: data=47.1 xdata=0 code=2978
+creating hex file from "MicroComputer"...
+"MicroComputer" - 0 Error(s), 10 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+TUBES.H(61): warning C275: expression with possibly no effect
+TUBES.H(64): warning C275: expression with possibly no effect
+TUBES.H(67): warning C275: expression with possibly no effect
+TUBES.H(70): warning C275: expression with possibly no effect
+TUBES.H(73): warning C275: expression with possibly no effect
+MAIN.C(11): warning C280: 'k': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SENDSTRING?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT_UART?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MPU?MAIN
+Program Size: data=47.1 xdata=0 code=2980
+creating hex file from "MicroComputer"...
+"MicroComputer" - 0 Error(s), 10 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(11): warning C280: 'k': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SENDSTRING?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT_UART?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MPU?MAIN
+Program Size: data=47.1 xdata=0 code=3013
+creating hex file from "MicroComputer"...
+"MicroComputer" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(11): warning C280: 'k': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SENDSTRING?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT_UART?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MPU?MAIN
+Program Size: data=47.1 xdata=0 code=3013
+creating hex file from "MicroComputer"...
+"MicroComputer" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(11): warning C280: 'k': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SENDSTRING?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT_UART?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MPU?MAIN
+Program Size: data=47.1 xdata=0 code=3013
+creating hex file from "MicroComputer"...
+"MicroComputer" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(11): warning C280: 'k': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SENDSTRING?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT_UART?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MPU?MAIN
+Program Size: data=47.1 xdata=0 code=3013
+creating hex file from "MicroComputer"...
+"MicroComputer" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+TUBES.H(55): warning C206: 'fresh': missing function-prototype
+TUBES.H(83): error C231: 'fresh': redefinition
+TUBES.H(89): error C231: 'fresh': redefinition
+Target not created
+Build target 'Target 1'
+compiling main.c...
+TUBES.H(55): warning C206: 'fresh': missing function-prototype
+TUBES.H(83): error C231: 'fresh': redefinition
+TUBES.H(89): error C231: 'fresh': redefinition
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(11): warning C280: 'k': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SENDSTRING?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT_UART?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MPU?MAIN
+Program Size: data=47.1 xdata=0 code=3052
+creating hex file from "MicroComputer"...
+"MicroComputer" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(11): warning C280: 'k': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SENDSTRING?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT_UART?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MPU?MAIN
+Program Size: data=47.1 xdata=0 code=2070
+creating hex file from "MicroComputer"...
+"MicroComputer" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(11): warning C280: 'k': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SENDSTRING?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT_UART?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MPU?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?FRESH?MAIN
+Program Size: data=47.1 xdata=0 code=2060
 creating hex file from "MicroComputer"...
 "MicroComputer" - 0 Error(s), 6 Warning(s).
 Build target 'Target 1'
 compiling main.c...
-MPU6050.H(271): warning C280: 'i': unreferenced local variable
+TUBES.H(79): error C202: 'gyro': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+TUBES.H(84): error C202: 'gyro': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(11): warning C280: 'k': unreferenced local variable
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_SENDSTRING?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_MOTORRUN?MAIN
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?INIT_UART?MAIN
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_SERIPUSHSEND?MAIN
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?MPU?MAIN
-Program Size: data=49.1 xdata=0 code=1537
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?FRESH?MAIN
+Program Size: data=47.1 xdata=0 code=1938
 creating hex file from "MicroComputer"...
 "MicroComputer" - 0 Error(s), 6 Warning(s).
 Build target 'Target 1'
 compiling main.c...
-MPU6050.H(271): warning C280: 'i': unreferenced local variable
+MAIN.C(11): warning C280: 'k': unreferenced local variable
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_SENDSTRING?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_MOTORRUN?MAIN
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?INIT_UART?MAIN
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_SERIPUSHSEND?MAIN
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?MPU?MAIN
-Program Size: data=49.1 xdata=0 code=1527
+Program Size: data=47.1 xdata=0 code=1941
+creating hex file from "MicroComputer"...
+"MicroComputer" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(11): warning C280: 'k': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SENDSTRING?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT_UART?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MPU?MAIN
+Program Size: data=47.1 xdata=0 code=1941
+creating hex file from "MicroComputer"...
+"MicroComputer" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(11): warning C280: 'k': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SENDSTRING?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT_UART?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MPU?MAIN
+Program Size: data=47.1 xdata=0 code=1941
+creating hex file from "MicroComputer"...
+"MicroComputer" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(11): warning C280: 'k': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SENDSTRING?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT_UART?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MPU?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?FRESH?MAIN
+Program Size: data=47.1 xdata=0 code=1938
 creating hex file from "MicroComputer"...
 "MicroComputer" - 0 Error(s), 6 Warning(s).
 Build target 'Target 1'
 compiling main.c...
-MPU6050.H(271): warning C280: 'i': unreferenced local variable
+MAIN.C(11): warning C280: 'k': unreferenced local variable
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_SENDSTRING?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_MOTORRUN?MAIN
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?INIT_UART?MAIN
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_SERIPUSHSEND?MAIN
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?MPU?MAIN
-Program Size: data=49.1 xdata=0 code=1515
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?FRESH?MAIN
+Program Size: data=47.1 xdata=0 code=1938
 creating hex file from "MicroComputer"...
 "MicroComputer" - 0 Error(s), 6 Warning(s).
 Build target 'Target 1'
 compiling main.c...
-MPU6050.H(271): warning C280: 'i': unreferenced local variable
+MAIN.C(11): warning C280: 'k': unreferenced local variable
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_SENDSTRING?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_MOTORRUN?MAIN
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?INIT_UART?MAIN
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_SERIPUSHSEND?MAIN
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?MPU?MAIN
-Program Size: data=47.1 xdata=0 code=1493
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?FRESH?MAIN
+Program Size: data=47.1 xdata=0 code=1938
 creating hex file from "MicroComputer"...
 "MicroComputer" - 0 Error(s), 6 Warning(s).
 Build target 'Target 1'
 compiling main.c...
-MPU6050.H(271): warning C280: 'i': unreferenced local variable
+MAIN.C(11): warning C280: 'k': unreferenced local variable
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_SENDSTRING?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_MOTORRUN?MAIN
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?INIT_UART?MAIN
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_SERIPUSHSEND?MAIN
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?MPU?MAIN
-Program Size: data=49.1 xdata=0 code=1507
+Program Size: data=47.1 xdata=0 code=1941
+creating hex file from "MicroComputer"...
+"MicroComputer" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(11): warning C280: 'k': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SENDSTRING?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT_UART?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MPU?MAIN
+Program Size: data=47.1 xdata=0 code=1941
+creating hex file from "MicroComputer"...
+"MicroComputer" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(11): warning C280: 'k': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SENDSTRING?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT_UART?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MPU?MAIN
+Program Size: data=47.1 xdata=0 code=1941
+creating hex file from "MicroComputer"...
+"MicroComputer" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(11): warning C280: 'k': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SENDSTRING?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT_UART?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MPU?MAIN
+Program Size: data=47.1 xdata=0 code=1941
+creating hex file from "MicroComputer"...
+"MicroComputer" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(11): warning C280: 'k': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SENDSTRING?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT_UART?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MPU?MAIN
+Program Size: data=47.1 xdata=0 code=1941
+creating hex file from "MicroComputer"...
+"MicroComputer" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(11): warning C280: 'k': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SENDSTRING?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT_UART?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MPU?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?FRESH?MAIN
+Program Size: data=47.1 xdata=0 code=1938
 creating hex file from "MicroComputer"...
 "MicroComputer" - 0 Error(s), 6 Warning(s).
 Build target 'Target 1'
 compiling main.c...
-MPU6050.H(271): warning C280: 'i': unreferenced local variable
+MAIN.C(11): warning C280: 'k': unreferenced local variable
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_SENDSTRING?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_MOTORRUN?MAIN
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?INIT_UART?MAIN
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_SERIPUSHSEND?MAIN
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?MPU?MAIN
-Program Size: data=49.1 xdata=0 code=1507
-creating hex file from "MicroComputer"...
-"MicroComputer" - 0 Error(s), 6 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-MPU6050.H(271): warning C280: 'i': unreferenced local variable
-linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SENDSTRING?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_MOTORRUN?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT_UART?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?MPU?MAIN
-Program Size: data=49.1 xdata=0 code=1507
-creating hex file from "MicroComputer"...
-"MicroComputer" - 0 Error(s), 6 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-MPU6050.H(271): warning C280: 'i': unreferenced local variable
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SENDSTRING?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_MOTORRUN?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT_UART?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?MPU?MAIN
-Program Size: data=49.1 xdata=0 code=1507
-creating hex file from "MicroComputer"...
-"MicroComputer" - 0 Error(s), 6 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-MPU6050.H(271): warning C280: 'i': unreferenced local variable
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SENDSTRING?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_MOTORRUN?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT_UART?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SERIPUSHSEND?MAIN
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?MPU?MAIN
-Program Size: data=49.1 xdata=0 code=1507
+    SEGMENT: ?PR?FRESH?MAIN
+Program Size: data=47.1 xdata=0 code=1932
 creating hex file from "MicroComputer"...
 "MicroComputer" - 0 Error(s), 6 Warning(s).

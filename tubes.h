@@ -10,11 +10,12 @@
 
 #define nop(); _nop_();
 
-sbit D4094=P1^1; //串行数据输出端,H 使能
-sbit STR4094=P1^0; //锁存器移位使能端,H 使能
-sbit CLK4094=P1^2; //串行时钟输出端,H 使能输出状态使能端,H 使能
+sbit STR4094=P1^4; //锁存器移位使能端,H 使能
+sbit D4094=P1^5; //串行数据输出端,H 使能
+sbit CLK4094=P1^6; //串行时钟输出端,H 使能输出状态使能端,H 使能
+sbit GND=P1^7;
 //code uchar tab[10]={0x40,0x79,0x24,0x30,0x19,0x12,0x02,0x78,0x00,0x10,};
-code uchar tab[10]={0x3f,0x06,0x5b,0x4f,0x66,0x6d,0x7d,0x07,0x7f,0x6f,};
+code uchar tab[11]={0x3f,0x06,0x5b,0x4f,0x66,0x6d,0x7d,0x07,0x7f,0x6f,0x40};
 //code uchar tab[10]={0xFB,0x68,0xDD,0xFC,0x6E,0xBE,0xBF,0xE8,0xFF,0xFE};
 void delayms(unsigned short ms)
 {
@@ -45,18 +46,46 @@ void Out4094(int dat0)
         }
         STR4094=1;
 }
-
-void lcd()
+ 
+void fresh(void)
 {
-        uchar a=0,b,c,d;
-        while(1)
-                {
-                // if(a>=100) a=0;
-                // b=a/10;//取十位
-                // c=a%10;//取个位
-                // d=c<<4|b&0x0f;//然后高低交换
-                Out4094(6);//发送移位输出至CD4094
-                delayms(500);
-                a++;
-                }
+	Out4094(8);
+	Out4094(8);
+	Out4094(8);
+	Out4094(8);
+	Out4094(8);
+	Out4094(8);
+}
+
+void lcd(int omega)
+{
+	int flag;
+	flag = omega;
+		GND = 0;
+
+        Out4094(omega%10);
+        omega/=10;
+		delayms(1);
+
+        Out4094(omega%10);
+        omega/=10;
+		 delayms(1);
+
+        Out4094(omega%10);
+        omega/=10;
+		 delayms(1);
+
+        Out4094(omega%10);
+        omega/=10;
+		   delayms(1);
+
+        Out4094(omega%10);
+        omega/=10;
+		  delayms(1);
+
+        if(flag<0)
+                Out4094(10);
+        else    Out4094(0);
+
+		//fresh();
 }
