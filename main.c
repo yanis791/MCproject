@@ -18,11 +18,12 @@ void main()
     x = GetData(ACCEL_XOUT_H);
     y = GetData(ACCEL_YOUT_H);
     z = GetData(ACCEL_ZOUT_H);
-    sendString(x);
-	sendString(y);
-	sendString(z);
-    sendData(0x0d);
-    sendData(0x0a);
+    send2Host(x,y,z);
+    // sendString(x);
+	// sendString(y);
+	// sendString(z);
+    //sendData(0x0d);
+    //sendData(0x0a);
     // tx = (atan((float)x/sqrt(fabs(y*y+z*z))));
     
 
@@ -35,7 +36,9 @@ void main()
 //     else
 //     motorRun(1,-omega,10);
 //    // mpu();
-//     delay(100);
+     delay(200);
     }
     
 }
+
+

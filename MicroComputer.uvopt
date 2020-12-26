@@ -203,10 +203,10 @@
       <FileType>1</FileType>
       <tvExp>1</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>0</ColumnNumber>
+      <ColumnNumber>14</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>12</TopLine>
-      <CurrentLine>28</CurrentLine>
+      <TopLine>7</TopLine>
+      <CurrentLine>10</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\main.c</PathWithFileName>
       <FilenameWithoutPath>main.c</FilenameWithoutPath>
@@ -215,8 +215,8 @@
 
   <AlienFiles>
     <PathWithFilename>E:\MCproject\MPU6050.H</PathWithFilename>
-    <TopLine>7</TopLine>
-    <CurrentLine>7</CurrentLine>
+    <TopLine>27</TopLine>
+    <CurrentLine>27</CurrentLine>
     <Constant>0</Constant>
     <WindowPosition>
       <length>0</length>
@@ -241,8 +241,8 @@
 
   <AlienFiles>
     <PathWithFilename>E:\MCproject\STEPMOTOR.H</PathWithFilename>
-    <TopLine>15</TopLine>
-    <CurrentLine>33</CurrentLine>
+    <TopLine>1</TopLine>
+    <CurrentLine>1</CurrentLine>
     <Constant>0</Constant>
     <WindowPosition>
       <length>0</length>
@@ -267,8 +267,8 @@
 
   <AlienFiles>
     <PathWithFilename>E:\MCproject\SERIAL.H</PathWithFilename>
-    <TopLine>17</TopLine>
-    <CurrentLine>21</CurrentLine>
+    <TopLine>30</TopLine>
+    <CurrentLine>30</CurrentLine>
     <Constant>0</Constant>
     <WindowPosition>
       <length>0</length>
@@ -1632,7 +1632,7 @@
     <ActiveMDIGroup>0</ActiveMDIGroup>
     <MDIGroup>
       <Size>100</Size>
-      <ActiveTab>4</ActiveTab>
+      <ActiveTab>1</ActiveTab>
       <Documents>
         <Doc>
           <Name>.\STARTUP.A51</Name>
@@ -1642,27 +1642,27 @@
         </Doc>
         <Doc>
           <Name>.\main.c</Name>
-          <ColumnNumber>0</ColumnNumber>
-          <TopLine>12</TopLine>
-          <CurrentLine>28</CurrentLine>
+          <ColumnNumber>14</ColumnNumber>
+          <TopLine>7</TopLine>
+          <CurrentLine>10</CurrentLine>
         </Doc>
         <Doc>
           <Name>SERIAL.H</Name>
-          <ColumnNumber>20</ColumnNumber>
-          <TopLine>17</TopLine>
-          <CurrentLine>21</CurrentLine>
+          <ColumnNumber>0</ColumnNumber>
+          <TopLine>30</TopLine>
+          <CurrentLine>30</CurrentLine>
         </Doc>
         <Doc>
           <Name>STEPMOTOR.H</Name>
           <ColumnNumber>30</ColumnNumber>
-          <TopLine>15</TopLine>
-          <CurrentLine>33</CurrentLine>
+          <TopLine>1</TopLine>
+          <CurrentLine>1</CurrentLine>
         </Doc>
         <Doc>
           <Name>MPU6050.H</Name>
           <ColumnNumber>0</ColumnNumber>
-          <TopLine>7</TopLine>
-          <CurrentLine>7</CurrentLine>
+          <TopLine>27</TopLine>
+          <CurrentLine>27</CurrentLine>
         </Doc>
       </Documents>
     </MDIGroup>

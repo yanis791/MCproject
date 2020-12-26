@@ -1,4 +1,4 @@
-C51 COMPILER V9.00   MAIN                                                                  12/25/2020 18:41:16 PAGE 1   
+C51 COMPILER V9.00   MAIN                                                                  12/25/2020 23:37:52 PAGE 1   
 
 
 C51 COMPILER V9.00, COMPILATION OF MODULE MAIN
@@ -28,37 +28,42 @@ line level    source
   18   2          x = GetData(ACCEL_XOUT_H);
   19   2          y = GetData(ACCEL_YOUT_H);
   20   2          z = GetData(ACCEL_ZOUT_H);
-  21   2          sendString(x);
-  22   2              sendString(y);
-  23   2              sendString(z);
-  24   2          sendData(0x0d);
-  25   2          sendData(0x0a);
-  26   2          // tx = (atan((float)x/sqrt(fabs(y*y+z*z))));
-  27   2          
-  28   2      
-  29   2          //omega = omega *4000/48;
-  30   2          // sendData('A');
-  31   2              // }
-  32   2      //      omega /=10;
-  33   2      //     if(omega>0)
-  34   2      //     motorRun(0,omega,10);
-  35   2      //     else
-  36   2      //     motorRun(1,-omega,10);
-  37   2      //    // mpu();
-  38   2      //     delay(100);
-  39   2          }
-  40   1          
-  41   1      }
+  21   2          send2Host(x,y,z);
+  22   2          // sendString(x);
+  23   2              // sendString(y);
+  24   2              // sendString(z);
+  25   2          //sendData(0x0d);
+  26   2          //sendData(0x0a);
+  27   2          // tx = (atan((float)x/sqrt(fabs(y*y+z*z))));
+  28   2          
+  29   2      
+  30   2          //omega = omega *4000/48;
+  31   2          // sendData('A');
+  32   2              // }
+  33   2      //      omega /=10;
+  34   2      //     if(omega>0)
+  35   2      //     motorRun(0,omega,10);
+  36   2      //     else
+  37   2      //     motorRun(1,-omega,10);
+  38   2      //    // mpu();
+  39   2           delay(200);
+  40   2          }
+  41   1          
+  42   1      }
+  43          
+  44          
 
 
 MODULE INFORMATION:   STATIC OVERLAYABLE
-   CODE SIZE        =   1151    ----
+   CODE SIZE        =   1187    ----
    CONSTANT SIZE    =     16    ----
    XDATA SIZE       =   ----    ----
    PDATA SIZE       =   ----    ----
    DATA SIZE        =      9      31
    IDATA SIZE       =   ----    ----
    BIT SIZE         =   ----       1
+C51 COMPILER V9.00   MAIN                                                                  12/25/2020 23:37:52 PAGE 2   
+
 END OF MODULE INFORMATION.
 
 
