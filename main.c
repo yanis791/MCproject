@@ -22,11 +22,11 @@ void main()
 
     send2Host(x,y,z);
 
-	lcd(omega);
+	
 
     controlMotor(omega);
     
-	
+	lcd(omega);
     
     delay(100);
     }

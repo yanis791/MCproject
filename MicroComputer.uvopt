@@ -244,6 +244,32 @@
   </Group>
 
   <AlienFiles>
+    <PathWithFilename>E:\MCproject\TUBES.H</PathWithFilename>
+    <TopLine>63</TopLine>
+    <CurrentLine>89</CurrentLine>
+    <Constant>0</Constant>
+    <WindowPosition>
+      <length>0</length>
+      <flags>0</flags>
+      <showCmd>0</showCmd>
+      <MinPosition>
+        <xPos>0</xPos>
+        <yPos>0</yPos>
+      </MinPosition>
+      <MaxPosition>
+        <xPos>0</xPos>
+        <yPos>0</yPos>
+      </MaxPosition>
+      <NormalPosition>
+        <Top>0</Top>
+        <Left>0</Left>
+        <Right>0</Right>
+        <Bottom>0</Bottom>
+      </NormalPosition>
+    </WindowPosition>
+  </AlienFiles>
+
+  <AlienFiles>
     <PathWithFilename>E:\MCproject\MPU6050.H</PathWithFilename>
     <TopLine>9</TopLine>
     <CurrentLine>27</CurrentLine>
@@ -298,33 +324,7 @@
   <AlienFiles>
     <PathWithFilename>E:\MCproject\SERIAL.H</PathWithFilename>
     <TopLine>18</TopLine>
-    <CurrentLine>38</CurrentLine>
-    <Constant>0</Constant>
-    <WindowPosition>
-      <length>0</length>
-      <flags>0</flags>
-      <showCmd>0</showCmd>
-      <MinPosition>
-        <xPos>0</xPos>
-        <yPos>0</yPos>
-      </MinPosition>
-      <MaxPosition>
-        <xPos>0</xPos>
-        <yPos>0</yPos>
-      </MaxPosition>
-      <NormalPosition>
-        <Top>0</Top>
-        <Left>0</Left>
-        <Right>0</Right>
-        <Bottom>0</Bottom>
-      </NormalPosition>
-    </WindowPosition>
-  </AlienFiles>
-
-  <AlienFiles>
-    <PathWithFilename>E:\MCproject\TUBES.H</PathWithFilename>
-    <TopLine>63</TopLine>
-    <CurrentLine>89</CurrentLine>
+    <CurrentLine>33</CurrentLine>
     <Constant>0</Constant>
     <WindowPosition>
       <length>0</length>
@@ -1704,9 +1704,9 @@
         </Doc>
         <Doc>
           <Name>SERIAL.H</Name>
-          <ColumnNumber>0</ColumnNumber>
+          <ColumnNumber>5</ColumnNumber>
           <TopLine>18</TopLine>
-          <CurrentLine>38</CurrentLine>
+          <CurrentLine>33</CurrentLine>
         </Doc>
         <Doc>
           <Name>STEPMOTOR.H</Name>
