@@ -49,9 +49,9 @@ void Out4094(int dat0)
 
 void lcd(int omega)
 {
-	int flag;
+    int flag;
     
-	flag = omega;
+    flag = omega;
     if(flag<0) omega = -omega;
 
     Out4094(omega%10);

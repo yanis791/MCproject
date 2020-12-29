@@ -327,19 +327,9 @@
     <property name="geometry">
      <rect>
       <x>120</x>
-      <y>310</y>
+      <y>320</y>
       <width>91</width>
       <height>51</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>490</y>
-      <width>104</width>
-      <height>64</height>
      </rect>
     </property>
    </widget>
@@ -360,7 +350,7 @@
     <property name="geometry">
      <rect>
       <x>120</x>
-      <y>380</y>
+      <y>390</y>
       <width>91</width>
       <height>51</height>
      </rect>
@@ -370,7 +360,7 @@
     <property name="geometry">
      <rect>
       <x>70</x>
-      <y>250</y>
+      <y>260</y>
       <width>151</width>
       <height>51</height>
      </rect>
@@ -383,7 +373,7 @@
     <property name="geometry">
      <rect>
       <x>230</x>
-      <y>320</y>
+      <y>330</y>
       <width>81</width>
       <height>31</height>
      </rect>
@@ -396,7 +386,7 @@
     <property name="geometry">
      <rect>
       <x>230</x>
-      <y>390</y>
+      <y>400</y>
       <width>81</width>
       <height>31</height>
      </rect>
@@ -409,7 +399,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>330</y>
+      <y>340</y>
       <width>68</width>
       <height>15</height>
      </rect>
@@ -422,7 +412,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>400</y>
+      <y>410</y>
       <width>68</width>
       <height>15</height>
      </rect>
@@ -452,6 +442,41 @@
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_2"/>
+   </widget>
+   <widget class="QComboBox" name="comboBox_6">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>530</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>90</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>180</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>270</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">

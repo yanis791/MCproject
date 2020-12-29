@@ -135,8 +135,7 @@ def data_send(data):
     global ser, SERIAL_STATUS
     if SERIAL_STATUS == 1:
         try:
-            print(hex(data).encode())
-            result = ser.write(hex(data).encode())
+            result = ser.write(data.encode())
         except Exception as e:
             ui.serial_now.setText("SEND_ERROR!")
     else:
@@ -156,11 +155,14 @@ def update_data():
 
 
 def sendMotorAngle():
-   data = ui.textEdit.toPlainText()
+   data = ui.comboBox_6.currentText()
    data = int(data)
-   data = data % 360
-   data = data*2/3
-   data = int(data)
+   if data == 90:
+       data_send('a');
+   if data == 180:
+       data_send('b');
+   if data == 270:
+       data_send('c');
    data_send(data)
 
 if __name__ == '__main__':

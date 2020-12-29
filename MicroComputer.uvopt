@@ -233,7 +233,7 @@
       <FileType>1</FileType>
       <tvExp>1</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>12</ColumnNumber>
+      <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
       <TopLine>8</TopLine>
       <CurrentLine>25</CurrentLine>
@@ -246,7 +246,7 @@
   <AlienFiles>
     <PathWithFilename>E:\MCproject\TUBES.H</PathWithFilename>
     <TopLine>63</TopLine>
-    <CurrentLine>89</CurrentLine>
+    <CurrentLine>78</CurrentLine>
     <Constant>0</Constant>
     <WindowPosition>
       <length>0</length>
@@ -323,8 +323,8 @@
 
   <AlienFiles>
     <PathWithFilename>E:\MCproject\SERIAL.H</PathWithFilename>
-    <TopLine>18</TopLine>
-    <CurrentLine>33</CurrentLine>
+    <TopLine>1</TopLine>
+    <CurrentLine>9</CurrentLine>
     <Constant>0</Constant>
     <WindowPosition>
       <length>0</length>
@@ -1698,15 +1698,15 @@
         </Doc>
         <Doc>
           <Name>.\main.c</Name>
-          <ColumnNumber>12</ColumnNumber>
+          <ColumnNumber>0</ColumnNumber>
           <TopLine>8</TopLine>
           <CurrentLine>25</CurrentLine>
         </Doc>
         <Doc>
           <Name>SERIAL.H</Name>
-          <ColumnNumber>5</ColumnNumber>
-          <TopLine>18</TopLine>
-          <CurrentLine>33</CurrentLine>
+          <ColumnNumber>10</ColumnNumber>
+          <TopLine>1</TopLine>
+          <CurrentLine>9</CurrentLine>
         </Doc>
         <Doc>
           <Name>STEPMOTOR.H</Name>
@@ -1724,7 +1724,7 @@
           <Name>TUBES.H</Name>
           <ColumnNumber>0</ColumnNumber>
           <TopLine>63</TopLine>
-          <CurrentLine>89</CurrentLine>
+          <CurrentLine>78</CurrentLine>
         </Doc>
       </Documents>
     </MDIGroup>

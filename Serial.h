@@ -5,7 +5,8 @@
 #include    <StepMotor.h>
 
 #define BAUD0		0xfd
-
+ unsigned char flag;
+ int step;
 
 void Init_Time1(void)
 {
@@ -28,25 +29,21 @@ void InitRs232(void)
 }
 
 
-void Ser(void) interrupt 4
+void Ser() interrupt 4
 {
-  unsigned char flag;
-  int num;
   if(RI)
    {
-    RI=0;
-	flag = SBUF;
-	num = flag*17;
+    flag = SBUF;
+	if(flag=='a')	step = 	1024;
+	if(flag=='b')	step = 	2048;
+	if(flag=='c')	step = 	3096;
 
-    if(num>0)
-		motorRun(1,num,10);
-	else
-		motorRun(0,-num,10);
-    ES=0;
-    flag=1;
+	motorRun(0,step,10);
+
+	RI=0;
    }
-
 }
+
 
 void sendData(unsigned char data2send)
 {
