@@ -1,4 +1,4 @@
-BL51 BANKED LINKER/LOCATER V6.22                                                        12/29/2020  17:41:45  PAGE 1
+BL51 BANKED LINKER/LOCATER V6.22                                                        12/29/2020  18:00:03  PAGE 1
 
 
 BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
@@ -59,7 +59,7 @@ LINK MAP OF MODULE:  MicroComputer (?C_STARTUP)
             CODE    0738H     0019H     UNIT         ?PR?INIT_UART?MAIN
             CODE    0751H     0019H     UNIT         ?PR?_I2C_SENDBYTE?MAIN
             CODE    076AH     0017H     UNIT         ?PR?_SINGLE_WRITEI2C?MAIN
-BL51 BANKED LINKER/LOCATER V6.22                                                      12/29/2020  17:41:45  PAGE 2
+BL51 BANKED LINKER/LOCATER V6.22                                                      12/29/2020  18:00:03  PAGE 2
 
 
             CODE    0781H     0015H     UNIT         ?PR?INIT_TIME1?MAIN
@@ -119,7 +119,7 @@ SEGMENT                              BIT_GROUP          DATA_GROUP
   +--> ?PR?DELAY5US?MAIN
 
 ?PR?_GETDATA?MAIN                 -----    -----      0012H    0002H
-BL51 BANKED LINKER/LOCATER V6.22                                                      12/29/2020  17:41:45  PAGE 3
+BL51 BANKED LINKER/LOCATER V6.22                                                      12/29/2020  18:00:03  PAGE 3
 
 
   +--> ?PR?_SINGLE_READI2C?MAIN
@@ -179,7 +179,7 @@ SYMBOL TABLE OF MODULE:  MicroComputer (?C_STARTUP)
   D:0082H         SYMBOL        DPL
   N:0000H         SYMBOL        IBPSTACK
   N:0100H         SYMBOL        IBPSTACKTOP
-BL51 BANKED LINKER/LOCATER V6.22                                                      12/29/2020  17:41:45  PAGE 4
+BL51 BANKED LINKER/LOCATER V6.22                                                      12/29/2020  18:00:03  PAGE 4
 
 
   N:0080H         SYMBOL        IDATALEN
@@ -239,7 +239,7 @@ SYMBOL TABLE OF MODULE:  MicroComputer (?C_STARTUP)
   C:04EBH         PUBLIC        Ser
   C:013EH         PUBLIC        _lcd_printf
   B:0090H.6       PUBLIC        CLK4094
-BL51 BANKED LINKER/LOCATER V6.22                                                      12/29/2020  17:41:45  PAGE 5
+BL51 BANKED LINKER/LOCATER V6.22                                                      12/29/2020  18:00:03  PAGE 5
 
 
   C:0796H         PUBLIC        I2C_Start
@@ -299,7 +299,7 @@ SYMBOL TABLE OF MODULE:  MicroComputer (?C_STARTUP)
   D:001EH         SYMBOL        i
   -------         ENDDO         
   C:0406H         LINE#         22
-BL51 BANKED LINKER/LOCATER V6.22                                                      12/29/2020  17:41:45  PAGE 6
+BL51 BANKED LINKER/LOCATER V6.22                                                      12/29/2020  18:00:03  PAGE 6
 
 
   C:040EH         LINE#         23
@@ -359,7 +359,7 @@ SYMBOL TABLE OF MODULE:  MicroComputer (?C_STARTUP)
   C:0506H         LINE#         34
   C:0509H         LINE#         35
   C:0509H         LINE#         36
-BL51 BANKED LINKER/LOCATER V6.22                                                      12/29/2020  17:41:45  PAGE 7
+BL51 BANKED LINKER/LOCATER V6.22                                                      12/29/2020  18:00:03  PAGE 7
 
 
   C:050CH         LINE#         37
@@ -419,7 +419,7 @@ SYMBOL TABLE OF MODULE:  MicroComputer (?C_STARTUP)
   D:0007H         SYMBOL        send
   -------         ENDDO         
   C:0601H         LINE#         84
-BL51 BANKED LINKER/LOCATER V6.22                                                      12/29/2020  17:41:45  PAGE 8
+BL51 BANKED LINKER/LOCATER V6.22                                                      12/29/2020  18:00:03  PAGE 8
 
 
   C:0605H         LINE#         85
@@ -479,7 +479,7 @@ SYMBOL TABLE OF MODULE:  MicroComputer (?C_STARTUP)
   C:07E2H         LINE#         120
   C:07E2H         LINE#         121
   C:07E2H         LINE#         122
-BL51 BANKED LINKER/LOCATER V6.22                                                      12/29/2020  17:41:45  PAGE 9
+BL51 BANKED LINKER/LOCATER V6.22                                                      12/29/2020  18:00:03  PAGE 9
 
 
   C:07E4H         LINE#         123
@@ -539,7 +539,7 @@ SYMBOL TABLE OF MODULE:  MicroComputer (?C_STARTUP)
   C:07B3H         LINE#         183
   C:07B3H         LINE#         184
   C:07B3H         LINE#         185
-BL51 BANKED LINKER/LOCATER V6.22                                                      12/29/2020  17:41:45  PAGE 10
+BL51 BANKED LINKER/LOCATER V6.22                                                      12/29/2020  18:00:03  PAGE 10
 
 
   C:07B5H         LINE#         186
@@ -599,7 +599,7 @@ SYMBOL TABLE OF MODULE:  MicroComputer (?C_STARTUP)
   C:0779H         LINE#         236
   C:077EH         LINE#         237
   -------         ENDPROC       _SINGLE_WRITEI2C
-BL51 BANKED LINKER/LOCATER V6.22                                                      12/29/2020  17:41:45  PAGE 11
+BL51 BANKED LINKER/LOCATER V6.22                                                      12/29/2020  18:00:03  PAGE 11
 
 
   -------         PROC          _SINGLE_READI2C
@@ -659,7 +659,7 @@ SYMBOL TABLE OF MODULE:  MicroComputer (?C_STARTUP)
   -------         ENDPROC       MPU
   -------         PROC          _DELAYMS
   D:0006H         SYMBOL        ms
-BL51 BANKED LINKER/LOCATER V6.22                                                      12/29/2020  17:41:45  PAGE 12
+BL51 BANKED LINKER/LOCATER V6.22                                                      12/29/2020  18:00:03  PAGE 12
 
 
   -------         DO            
@@ -719,7 +719,7 @@ SYMBOL TABLE OF MODULE:  MicroComputer (?C_STARTUP)
   C:05D3H         LINE#         64
   C:05D3H         LINE#         66
   C:05D3H         LINE#         67
-BL51 BANKED LINKER/LOCATER V6.22                                                      12/29/2020  17:41:45  PAGE 13
+BL51 BANKED LINKER/LOCATER V6.22                                                      12/29/2020  18:00:03  PAGE 13
 
 
   C:05D3H         LINE#         69
@@ -750,8 +750,8 @@ SYMBOL TABLE OF MODULE:  MicroComputer (?C_STARTUP)
   C:0587H         LINE#         23
   C:0596H         LINE#         24
   C:059DH         LINE#         25
-  C:05A4H         LINE#         29
-  C:05ABH         LINE#         30
+  C:05A4H         LINE#         27
+  C:05ABH         LINE#         28
   -------         ENDPROC       MAIN
   -------         ENDMOD        MAIN
 
@@ -779,7 +779,7 @@ SYMBOL TABLE OF MODULE:  MicroComputer (?C_STARTUP)
 
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_SERIPUSHSEND?MAIN
-BL51 BANKED LINKER/LOCATER V6.22                                                      12/29/2020  17:41:45  PAGE 14
+BL51 BANKED LINKER/LOCATER V6.22                                                      12/29/2020  18:00:03  PAGE 14
 
 
 

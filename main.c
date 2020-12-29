@@ -24,9 +24,7 @@ void main()
     lcd(omega);
     controlMotor(omega);
     
-	
-    
-    delay(100);
+    delay(10);
     }
     
 }

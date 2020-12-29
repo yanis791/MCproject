@@ -333,19 +333,6 @@
      </rect>
     </property>
    </widget>
-   <widget class="QPushButton" name="set">
-    <property name="geometry">
-     <rect>
-      <x>170</x>
-      <y>500</y>
-      <width>101</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>设置初始角度</string>
-    </property>
-   </widget>
    <widget class="QLCDNumber" name="lcdNumber_2">
     <property name="geometry">
      <rect>
@@ -425,7 +412,7 @@
     <property name="geometry">
      <rect>
       <x>330</x>
-      <y>20</y>
+      <y>10</y>
       <width>531</width>
       <height>261</height>
      </rect>
@@ -436,47 +423,114 @@
     <property name="geometry">
      <rect>
       <x>330</x>
-      <y>290</y>
+      <y>300</y>
       <width>531</width>
       <height>261</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_2"/>
    </widget>
-   <widget class="QComboBox" name="comboBox_6">
+   <widget class="QLabel" name="label_16">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>530</y>
-      <width>91</width>
-      <height>21</height>
+      <x>300</x>
+      <y>20</y>
+      <width>68</width>
+      <height>15</height>
      </rect>
     </property>
-    <item>
-     <property name="text">
-      <string>0</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>90</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>180</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>270</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string/>
-     </property>
-    </item>
+    <property name="text">
+     <string>度</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>300</y>
+      <width>68</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>度</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>280</y>
+      <width>68</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>100ms</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>570</y>
+      <width>68</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>100ms</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>490</y>
+      <width>183</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QComboBox" name="comboBox_6">
+       <item>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>90</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>180</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>270</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_15">
+       <property name="text">
+        <string>度</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="set">
+       <property name="text">
+        <string>设置初始角度</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">

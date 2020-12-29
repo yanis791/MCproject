@@ -186,18 +186,19 @@ if __name__ == '__main__':
     # plot
     plt_pitch = PlotWidget()
     ui.verticalLayout.addWidget(plt_pitch)
-    plt_pitch.setGeometry(QtCore.QRect(25, 25, 1000, 1000))  # (25, 25, 550, 550))
-    data_pitch = np.zeros(200)
+    #plt_pitch.setGeometry(QtCore.QRect(25, 25, 1000, 1000))  # (25, 25, 550, 550))
+    data_pitch = np.zeros(10)
     curve_pitch = plt_pitch.plot(data_pitch, name="mode1")
     plt_roll = PlotWidget()
     ui.verticalLayout_2.addWidget(plt_roll)
-    plt_roll.setGeometry(QtCore.QRect(25, 25, 1000, 1000))  # (25, 25, 550, 550))
-    data_roll = np.zeros(200)
+    #plt_roll.setGeometry(QtCore.QRect(25, 25, 1000, 1000))  # (25, 25, 550, 550))
+    data_roll = np.zeros(10)
     curve_roll = plt_roll.plot(data_roll, name="mode2")
+
     # # 设定定时器,绑定 update_data 函数
     timer = pq.QtCore.QTimer()
     timer.timeout.connect(update_data)
-    timer.start(50)
+    timer.start(100)
 
     ui.set.clicked.connect(sendMotorAngle)
 
